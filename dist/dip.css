@@ -1,17 +1,6 @@
-*{
-    text-align: justify;
-    padding: auto;
-}
 p{
     font-size: 20pt;
-    font-family: 'Courier New', Courier, monospace;
-    padding: auto;
 }
 h3{
-    font-style: bold;
-    text-align: left;
+    font-style: italic;
 }
- li{
-     font-family: 'Courier New', Courier, monospace;
-
- }
