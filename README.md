@@ -1,9 +1,9 @@
 ### Kelompok 3
-React JS
-Ketua : Syahidandy Nasgi (181111641)
-Anggota :
-	- Divany Djunita (181112035)
-	- Steven Harefa (181113537)
+React JS <br>
+Ketua : Syahidandy Nasgi (181111641)<br>
+Anggota :<br>
+	- Divany Djunita (181112035)<br>
+	- Steven Harefa (181113537)<br>
 	- Juliana Damayanti (181113723) 
 
 ---
