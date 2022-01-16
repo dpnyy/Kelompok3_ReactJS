@@ -23,50 +23,40 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section><h2>Dasar - Dasar React JS</h2></section>
+				<section><h2>Dasar-dasar React JS</h2></section>
 				<section>
-					<h3>1.</h3>
-					<p>Editing
+					<h3>1. JSX</h3>
+					<p>JavaScript XML (JSX) merupakan ekstensi sintaks khusus dan valid dalam ReactJS.
+						yang memungkinkan pembuatan file HTML tidak terpisah. HTML dan JavaScript dapat digabung dan dikerjakan pada file yang sama.
 					</p>
-					<h3>2.</h3>
+					<h3>2.Component</h3>
+					<p>Komponen adalah blok kode independen yang dapat digunakan kembali yang membagi UI menjadi bagian-bagian yang lebih kecil.
+						React memiliki dua jenis komponen: functional dan class.
+					</p>
+				</section>
+				<section>
+					<p><h4>Functional Component :</h4>
+						<li>merupakan sebuah JavaScript/ES6 function</li>
+						<li>return a React element (JSX)</li>
+						<li>dimulai dengan huruf kapital</li>
+						<li>menggunakan <i>prop</i> sebagai parameter</li>
+					</p>
 					<p>
-						 bisa mengambil semua bagian coding javascript atau sebagian saja, 
-						lalu mengembangkannya sesuai kebutuhan masing-masing.
-						Hal ini akan menghemat banyak waktu dalam membuat UI yang diinginkan, 
-						sehingga pekerjaan menjadi lebih cepat selesai 
+						<h4>Class Component :</h4>
+						<li>merupakan ES6 class, menjadi sebuah komponen jika dilakukan 'extend' React Component </li>
+						<li>menggunakan Props (<i>pada constructor</i>) jika dibutuhkan</li>
+						<li>harus memiliki metode render() ketika return JSX</li>
 					</p>
 				</section>
 				<section>
-					<h3>3.Cakupan untuk Pengujian Kode</h3>
-					<p>Aplikasi ReactJS sangat mudah untuk diuji. 
-						Ini menawarkan ruang lingkup di mana pengembang dapat menguji dan men-debug kode 
-						mereka dengan bantuan alat asli.</p>
-					<h3>4.SEO Friendly</h3>
-					<p>Kerangka JavaScript tradisional memiliki masalah dalam menangani SEO. 
-						Mesin pencari umumnya mengalami kesulitan dalam membaca aplikasi yang berat JavaScript. 
-						Banyak web developer yang sering mengeluhkan masalah ini. 
-						ReactJS mengatasi masalah ini yang membantu pengembang untuk dinavigasi dengan mudah 
-						di berbagai mesin pencari. Itu karena aplikasi React.js dapat berjalan di server, 
-						dan DOM virtual akan merender dan kembali ke browser sebagai halaman web biasa.</p>
+					<h3>3. Props</h3>
+					<p>React memiliki objek khusus yang disebut prop (singkatan dari property) yang digunakan untuk mengangkut data
+						 dari satu komponen ke komponen lainnya.
+						Props merupakan nilai khusus yang dapat menjadikan komponen lebih dinamis.</p>
+					<h3>4. State</h3>
+					<p>State.js adalah pustaka JavaScript untuk menyematkan status kelas satu yang dapat dikomposisi dan dapat diwariskan ke dalam arbitrary owner objects.</p>
 				</section>
-				<section><h2>Kelemahan React JS</h2></section>
-				<section>
-					<h3>1. Dokumentasi yang Buruk</h3>
-					<p>Teknologi React memperbarui dan mempercepat dengan sangat cepat sehingga tidak ada waktu 
-						untuk membuat dokumentasi yang tepat. Untuk mengatasinya, pengembang menulis instruksi mereka sendiri 
-						dengan mengembangkan rilis baru dan alat dalam proyek mereka saat ini.</p>
-					<h3>2. View Layer</h3>
-					<p>React JS merupakan library javascript dalam bentuk view layer. Walaupun penggunaannya sangat mudah, 
-						tetapi framework ini tidak cocok untuk membangun aplikasi yang besar.
-						Sehingga kita tetap harus melengkapinya dengan router, data layer, 
-						struktur dan lainnya secara terpisah. Anda bisa memakai library luar untuk melengkapi hal tersebut. Namun, hal ini tidak praktis dan akan menyulitkan para pengguna baru.
-						</p>
-				</section>
-				<section>
-					<h3>3. Kompatibilitas </h3>
-					<p>Library javascript ini dapat digunakan untuk browser versi terbaru dan tidak bisa pada versi lama. 
-						Sehingga mengharuskan kita untuk meng-update browser dahulu agar dapat memakai react JS. </p>
-				</section>
+				
 			</div>
 		</div>
 
